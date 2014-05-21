@@ -25,4 +25,5 @@
 
 require 'json'
 
-puts ({'ARGV' => ARGV}).to_json
+params = ARGV[1].to_json
+puts params.to_json
