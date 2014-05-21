@@ -23,4 +23,6 @@
 # is that your final data is written to an Sqlite database called data.sqlite in the current working directory which
 # has at least a table called data.
 
-puts "ARGV: #{ARGV}"
+require 'json'
+
+puts ({'ARGV' => ARGV}).to_json
