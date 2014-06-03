@@ -1,0 +1,6 @@
+{
+	"bot_id": "my_dummy_bot",
+	"data_type": "primary data",
+	"identifying_fields": ["title"],
+	"files": ["scraper.rb"]
+}
